@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}Book your journey{% endblock %}
+{% block content %}<section class="subhero"><span class="eyebrow">YOUR MOBILUX EXPERIENCE</span><h1>Plan your journey.</h1><p>Complete the form to create a demonstration booking request.</p></section>
+<section class="section form-section"><form method="post">
+<label>CHOOSE YOUR PACKAGE</label><select name="package">{% for code,p in packages.items() %}<option value="{{ code }}" {% if selected==code %}selected{% endif %}>{{ p.name }}</option>{% endfor %}</select>
+<div class="form-grid"><div><label>YOUR NAME</label><input name="name" required placeholder="Full name"></div><div><label>EMAIL</label><input name="email" type="email" required placeholder="name@example.com"></div><div><label>DEPARTURE DATE</label><input name="departure_date" type="date"></div><div><label>PASSENGERS</label><select name="passengers">{% for n in range(1,9) %}<option>{{ n }}</option>{% endfor %}</select></div></div>
+<label>PICK-UP ADDRESS</label><input name="address" required placeholder="City, address or preferred meeting point">
+<label>PICK-UP PREFERENCE</label><select name="pickup_preference"><option>Nearest designated pick-up point (demonstration)</option><option>Request home collection (subject to availability)</option></select>
+<p class="note">For this academic prototype, enter a location manually. No device location is collected and no real pick-up availability is checked.</p>
+<label>ADDITIONAL EXPERIENCES</label><div class="checks">{% for service in services %}<label class="check"><input type="checkbox" name="services" value="{{ service }}"> {{ service }}</label>{% endfor %}</div>
+<label>SPECIAL REQUESTS</label><textarea name="notes" rows="4" placeholder="Dietary requirements, celebrations or other requests..."></textarea>
+<button class="button" type="submit">CONFIRM BOOKING REQUEST</button><p class="note">No payment is taken. This form creates a fictional demonstration record for presentation purposes only.</p>
+</form></section>{% endblock %}
