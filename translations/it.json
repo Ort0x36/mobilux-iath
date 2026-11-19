@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "site_name": "MOBILUX",
+    "tagline": "L'hotel che si muove per te"
+  },
+  "a11y": {
+    "skip": "Vai al contenuto",
+    "main_nav": "Navigazione principale",
+    "menu_open": "Apri il menu",
+    "menu_close": "Chiudi il menu",
+    "menu": "Menu",
+    "language": "Lingua",
+    "home": "MOBILUX, pagina iniziale"
+  },
+  "nav": {
+    "concept": "L'idea",
+    "fleet": "I nostri bus",
+    "packages": "Pacchetti",
+    "my_journey": "Il mio viaggio",
+    "book": "Prenota"
+  },
+  "footer": {
+    "tagline": "L'hotel che si muove per te.",
+    "disclaimer": "Prototipo per una presentazione accademica. Le prenotazioni sono solo dimostrative.",
+    "language": "Lingua del sito"
+  },
+  "home": {
+    "title": "MOBILUX | L'hotel che si muove per te",
+    "description": "MOBILUX unisce trasporto, alloggio ed esperienze in un unico viaggio attraverso l'Europa. Scopri gli itinerari City e Nature.",
+    "hero": {
+      "eyebrow": "Un nuovo modo di scoprire l'Europa",
+      "title": "L'hotel che si muove per te.",
+      "text": "Scopri l'Europa in modo diverso, con il comfort di un hotel che ti accompagna da una destinazione all'altra.",
+      "cta": "Prenota il tuo viaggio",
+      "secondary": "Scopri i pacchetti"
+    },
+    "concept": {
+      "eyebrow": "L'idea MOBILUX",
+      "title": "Perché restare in un solo posto, se il tuo hotel può portarti ovunque?",
+      "intro": "MOBILUX riunisce trasporto, alloggio, turismo ed esperienze su misura in un unico viaggio attraverso l'Europa, curato in ogni dettaglio.",
+      "f1_title": "Il viaggio parte da te",
+      "f1_text": "Scegli la modalità di partenza più comoda e indicaci dove preferisci salire a bordo.",
+      "f2_title": "Itinerari già pensati per te",
+      "f2_text": "Percorsi definiti in anticipo che collegano alcune delle destinazioni più belle d'Europa.",
+      "f3_title": "Più di una destinazione",
+      "f3_text": "Se vuoi, aggiungi esperienze gastronomiche, visite guidate, momenti di benessere e un servizio di concierge."
+    },
+    "packages": {
+      "eyebrow": "Due modi di vivere l'Europa",
+      "title": "Scegli il tuo viaggio",
+      "view": "Vedi l'itinerario",
+      "book": "Prenota questo pacchetto"
+    },
+    "night": {
+      "eyebrow": "Un viaggio diverso",
+      "title": "Tu dormi. Noi viaggiamo.",
+      "text": "Su alcune tratte notturne puoi riposare mentre il viaggio prosegue verso la tappa successiva. I trasferimenti notturni verrebbero sempre pianificati con un equipaggio professionale, nel rispetto dei tempi di riposo degli autisti e delle norme di sicurezza applicabili."
+    },
+    "journey": {
+      "eyebrow": "Il tuo spazio personale",
+      "title": "Tutto il tuo viaggio in un unico posto",
+      "text": "Nella sezione Il mio viaggio trovi la tua prenotazione dimostrativa e i dettagli del percorso.",
+      "cta": "Il mio viaggio"
+    }
+  },
+  "fleet": {
+    "eyebrow": "I nostri bus",
+    "title": "Una suite d'hotel che viaggia con te",
+    "intro": "Così immaginiamo il veicolo MOBILUX, dal primo disegno agli interni.",
+    "alt": "Il bus MOBILUX al tramonto, con una linea di luce LED lungo la carrozzeria",
+    "step1_title": "Il progetto",
+    "step1_text": "Tutto parte dal disegno: 11,5 metri di lunghezza e 2,55 di larghezza, pensati attorno a una suite completa.",
+    "step2_title": "La carrozzeria",
+    "step2_text": "Linee morbide e grandi vetrate scure: il paesaggio resta sempre in vista, la privacy anche.",
+    "step3_title": "La luce",
+    "step3_text": "Una linea di luce LED segue il profilo del veicolo e lo rende riconoscibile anche di notte.",
+    "step4_title": "Gli spazi",
+    "step4_text": "All'interno, circa 28 m² con camera matrimoniale, zona living, cucina attrezzata e bagno con doccia.",
+    "callout_windows": "Grandi vetrate",
+    "callout_light": "Linea di luce LED",
+    "length": "11,5 m",
+    "width": "2,55 m",
+    "inside_title": "Dentro la suite",
+    "room_bedroom": "Camera matrimoniale",
+    "room_living": "Zona living",
+    "room_kitchen": "Cucina attrezzata",
+    "room_bathroom": "Bagno con doccia",
+    "plan_title": "La pianta, circa 28 m²",
+    "plan_alt": "Pianta della suite vista dall'alto: camera, zona living, cucina e bagno",
+    "note": "Immagini di concept, a scopo illustrativo."
+  },
+  "package": {
+    "city": {
+      "theme": "Le città europee, in chiave lusso",
+      "tags": "Cultura, arte, gastronomia",
+      "description": "Le città più iconiche d'Europa, da scoprire attraverso arte, architettura, gastronomia e cultura."
+    },
+    "nature": {
+      "theme": "Natura e benessere, in chiave lusso",
+      "tags": "Natura, benessere, evasione",
+      "description": "Le mete naturali più belle d'Europa, tra benessere, paesaggi ed esperienze all'aperto riservate."
+    },
+    "title": "{name}: l'itinerario",
+    "itinerary_eyebrow": "L'itinerario",
+    "itinerary_title": "Un viaggio, tante storie",
+    "itinerary_intro": "Ogni tappa lascia spazio alla cultura locale, alla gastronomia e a esperienze da ricordare.",
+    "departure": "Partenza",
+    "stop": "Tappa",
+    "return": "Rientro",
+    "note": "Itinerario indicativo, preparato per una presentazione accademica. Tempi di viaggio, soste operative e disponibilità delle attività sono da definire in fase di pianificazione.",
+    "book": "Prenota questo pacchetto",
+    "all": "Tutti i pacchetti"
+  },
+  "place": {
+    "milan": "Milano",
+    "lyon": "Lione",
+    "paris": "Parigi",
+    "amsterdam": "Amsterdam",
+    "berlin": "Berlino",
+    "prague": "Praga",
+    "vienna": "Vienna",
+    "venice": "Venezia",
+    "chamonix": "Chamonix",
+    "annecy": "Annecy",
+    "ortisei": "Ortisei e le Dolomiti",
+    "innsbruck": "Innsbruck",
+    "salzburg": "Salisburgo",
+    "hallstatt": "Hallstatt",
+    "bled": "Lago di Bled"
+  },
+  "service": {
+    "Premium food and beverage service": "Ristorazione premium a bordo",
+    "Special dietary requirements": "Esigenze alimentari particolari",
+    "Private guided tours": "Visite guidate private",
+    "Additional wellness experiences": "Esperienze benessere aggiuntive",
+    "Personalized concierge assistance": "Assistenza concierge personalizzata",
+    "Special celebrations": "Ricorrenze e occasioni speciali",
+    "Extra luggage requests": "Bagaglio extra"
+  },
+  "pickup": {
+    "Nearest designated pick-up point (demonstration)": "Punto di partenza designato più vicino (dimostrativo)",
+    "Request home collection (subject to availability)": "Partenza da casa tua (in base alla disponibilità)",
+    "Nearest designated pick-up point": "Punto di partenza designato più vicino"
+  },
+  "book": {
+    "title": "Prenota il tuo viaggio",
+    "description": "Crea una richiesta di prenotazione dimostrativa per MOBILUX CITY o MOBILUX NATURE.",
+    "eyebrow": "La tua esperienza MOBILUX",
+    "heading": "Organizza il tuo viaggio",
+    "intro": "Compila il modulo per creare una richiesta di prenotazione dimostrativa.",
+    "package": "Pacchetto",
+    "name": "Nome e cognome",
+    "email": "Email",
+    "email_placeholder": "nome@esempio.it",
+    "date": "Data di partenza",
+    "passengers": "Passeggeri",
+    "address": "Indirizzo di partenza",
+    "address_placeholder": "Città, indirizzo o punto d'incontro preferito",
+    "preference": "Modalità di partenza",
+    "location_note": "In questo prototipo la località va inserita a mano. Non rileviamo la posizione del dispositivo e non verifichiamo la reale disponibilità dei punti di partenza.",
+    "extras": "Esperienze aggiuntive",
+    "notes": "Richieste particolari",
+    "notes_placeholder": "Esigenze alimentari, ricorrenze o altre richieste",
+    "optional": "facoltativo",
+    "submit": "Conferma la richiesta",
+    "payment_note": "Non è previsto alcun pagamento. Il modulo crea un record fittizio, usato solo ai fini della presentazione.",
+    "error_required": "Inserisci nome, email e indirizzo di partenza.",
+    "error_email": "Inserisci un indirizzo email valido."
+  },
+  "validation": {
+    "required": "Compila questo campo.",
+    "email": "Inserisci un indirizzo email valido, ad esempio nome@esempio.it."
+  },
+  "confirmation": {
+    "title": "Richiesta ricevuta",
+    "eyebrow": "Richiesta dimostrativa creata",
+    "heading": "Il tuo viaggio inizia qui",
+    "intro": "Grazie, {name}. La tua richiesta di prenotazione di prova è stata salvata.",
+    "keep_reference": "Conserva il codice di riferimento: ti servirà, insieme all'email, per ritrovare la prenotazione in Il mio viaggio.",
+    "note": "Questa non è una prenotazione reale. Nessun veicolo, posto, servizio o pagamento è stato confermato.",
+    "cta": "Vai a Il mio viaggio"
+  },
+  "receipt": {
+    "reference": "Riferimento",
+    "package": "Pacchetto",
+    "departure": "Partenza",
+    "passengers": "Passeggeri",
+    "pickup": "Punto di partenza",
+    "services": "Servizi aggiuntivi",
+    "status": "Stato",
+    "to_be_agreed": "Da concordare",
+    "none": "Nessuno",
+    "status_received": "Richiesta dimostrativa ricevuta",
+    "demo": "Prenotazione dimostrativa"
+  },
+  "journey": {
+    "title": "Il mio viaggio",
+    "description": "Ritrova la tua prenotazione dimostrativa MOBILUX con il codice di riferimento e l'indirizzo email.",
+    "eyebrow": "Il tuo spazio personale",
+    "heading": "Il mio viaggio",
+    "intro": "Ritrova la tua prenotazione dimostrativa con il codice di riferimento e l'indirizzo email.",
+    "reference": "Codice di riferimento",
+    "email": "Email usata per la prenotazione",
+    "submit": "Cerca il mio viaggio",
+    "not_found": "Nessuna prenotazione dimostrativa trovata. Controlla il codice e l'email."
+  },
+  "error": {
+    "title": "Pagina non trovata",
+    "heading": "Questa pagina non esiste",
+    "text": "Il link potrebbe essere errato oppure la pagina è stata spostata.",
+    "cta": "Torna alla pagina iniziale"
+  },
+  "months": [
+    "gennaio",
+    "febbraio",
+    "marzo",
+    "aprile",
+    "maggio",
+    "giugno",
+    "luglio",
+    "agosto",
+    "settembre",
+    "ottobre",
+    "novembre",
+    "dicembre"
+  ]
+}

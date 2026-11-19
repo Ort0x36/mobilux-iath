@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ t('error.title') }} | MOBILUX{% endblock %}
+{% block content %}
+<section class="section center error-page" data-stagger>
+  <p class="eyebrow" data-reveal>404</p>
+  <h1 data-reveal>{{ t('error.heading') }}</h1>
+  <p class="intro" data-reveal>{{ t('error.text') }}</p>
+  <div data-reveal><a class="button" href="{{ url_for('home') }}">{{ t('error.cta') }}</a></div>
+</section>
+{% endblock %}

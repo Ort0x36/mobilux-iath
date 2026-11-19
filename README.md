@@ -14,6 +14,13 @@ A deliberately simple Flask + SQLite website for a Tourism & Hospitality academi
 
 The SQLite database is created automatically as `mobilux.db`.
 
+## Languages
+Italian is the default (`/`), English lives under `/en/`. The IT | EN selector in the header
+remembers the choice in a cookie. All text is in `translations/it.json` and `translations/en.json`.
+
+## Tests
+Run `python -m unittest discover -s tests`
+
 ## Included
 - Homepage and brand presentation
 - MOBILUX CITY and MOBILUX NATURE package pages

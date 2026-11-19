@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "site_name": "MOBILUX",
+    "tagline": "The hotel that moves for you"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "main_nav": "Main navigation",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu",
+    "menu": "Menu",
+    "language": "Language",
+    "home": "MOBILUX, home page"
+  },
+  "nav": {
+    "concept": "The concept",
+    "fleet": "Our coaches",
+    "packages": "Packages",
+    "my_journey": "My Journey",
+    "book": "Book now"
+  },
+  "footer": {
+    "tagline": "The hotel that moves for you.",
+    "disclaimer": "Academic presentation prototype. Bookings are for demonstration only.",
+    "language": "Site language"
+  },
+  "home": {
+    "title": "MOBILUX | The hotel that moves for you",
+    "description": "MOBILUX combines transport, accommodation and experiences in a single journey across Europe. Explore the City and Nature itineraries.",
+    "hero": {
+      "eyebrow": "A new way to discover Europe",
+      "title": "The hotel that moves for you.",
+      "text": "Discover Europe differently, with the comfort of a hotel that travels with you from one destination to the next.",
+      "cta": "Book your journey",
+      "secondary": "Explore the packages"
+    },
+    "concept": {
+      "eyebrow": "The MOBILUX concept",
+      "title": "Why stay in one place when your hotel can take you everywhere?",
+      "intro": "MOBILUX brings transport, accommodation, tourism and tailored experiences together in one carefully planned journey across Europe.",
+      "f1_title": "Your journey starts with you",
+      "f1_text": "Choose the pick-up option that suits you and tell us where you would like to board.",
+      "f2_title": "Itineraries, already planned",
+      "f2_text": "Set routes that connect some of Europe's most remarkable destinations.",
+      "f3_title": "More than a destination",
+      "f3_text": "If you wish, add food experiences, guided tours, wellness and concierge services."
+    },
+    "packages": {
+      "eyebrow": "Two ways to experience Europe",
+      "title": "Choose your journey",
+      "view": "View itinerary",
+      "book": "Book this package"
+    },
+    "night": {
+      "eyebrow": "A different kind of journey",
+      "title": "You sleep. We move.",
+      "text": "On selected overnight routes, you can rest while the journey continues to the next destination. Overnight travel would always be planned around a professional crew, driver rest periods and the applicable safety regulations."
+    },
+    "journey": {
+      "eyebrow": "Your personal space",
+      "title": "Your whole journey in one place",
+      "text": "My Journey shows your demonstration booking and the details of your trip.",
+      "cta": "My Journey"
+    }
+  },
+  "fleet": {
+    "eyebrow": "Our coaches",
+    "title": "A hotel suite that travels with you",
+    "intro": "This is how we imagine the MOBILUX coach, from the first drawing to the interior.",
+    "alt": "The MOBILUX coach at sunset, with a line of LED light along the bodywork",
+    "step1_title": "The design",
+    "step1_text": "It all starts with a drawing: 11.5 metres long and 2.55 metres wide, planned around a complete suite.",
+    "step2_title": "The body",
+    "step2_text": "Soft lines and large tinted windows keep the landscape in view and your privacy intact.",
+    "step3_title": "The light",
+    "step3_text": "A line of LED light follows the profile of the coach, so it is easy to recognise even at night.",
+    "step4_title": "The space",
+    "step4_text": "Inside, about 28 m² with a double bedroom, a living area, a fitted kitchen and a bathroom with shower.",
+    "callout_windows": "Large windows",
+    "callout_light": "LED light line",
+    "length": "11.5 m",
+    "width": "2.55 m",
+    "inside_title": "Inside the suite",
+    "room_bedroom": "Double bedroom",
+    "room_living": "Living area",
+    "room_kitchen": "Fitted kitchen",
+    "room_bathroom": "Bathroom with shower",
+    "plan_title": "The floor plan, about 28 m²",
+    "plan_alt": "Top view floor plan of the suite: bedroom, living area, kitchen and bathroom",
+    "note": "Concept images, for illustration only."
+  },
+  "package": {
+    "city": {
+      "theme": "Europe's cities, in luxury",
+      "tags": "Culture, art, gastronomy",
+      "description": "Explore Europe's most iconic cities through their art, architecture, gastronomy and culture."
+    },
+    "nature": {
+      "theme": "Nature and wellness, in luxury",
+      "tags": "Nature, wellness, escape",
+      "description": "Discover Europe's finest natural destinations through wellness, landscapes and exclusive outdoor experiences."
+    },
+    "title": "{name}: the itinerary",
+    "itinerary_eyebrow": "The itinerary",
+    "itinerary_title": "One journey, many stories",
+    "itinerary_intro": "Every stop leaves time for local culture, gastronomy and experiences worth remembering.",
+    "departure": "Departure",
+    "stop": "Stop",
+    "return": "Return",
+    "note": "Illustrative itinerary prepared for an academic presentation. Travel times, operating stops and activity availability are subject to planning.",
+    "book": "Book this package",
+    "all": "All packages"
+  },
+  "place": {
+    "milan": "Milan",
+    "lyon": "Lyon",
+    "paris": "Paris",
+    "amsterdam": "Amsterdam",
+    "berlin": "Berlin",
+    "prague": "Prague",
+    "vienna": "Vienna",
+    "venice": "Venice",
+    "chamonix": "Chamonix",
+    "annecy": "Annecy",
+    "ortisei": "Ortisei and the Dolomites",
+    "innsbruck": "Innsbruck",
+    "salzburg": "Salzburg",
+    "hallstatt": "Hallstatt",
+    "bled": "Lake Bled"
+  },
+  "service": {
+    "Premium food and beverage service": "Premium food and drink on board",
+    "Special dietary requirements": "Special dietary requirements",
+    "Private guided tours": "Private guided tours",
+    "Additional wellness experiences": "Additional wellness experiences",
+    "Personalized concierge assistance": "Personal concierge assistance",
+    "Special celebrations": "Special celebrations",
+    "Extra luggage requests": "Extra luggage"
+  },
+  "pickup": {
+    "Nearest designated pick-up point (demonstration)": "Nearest designated pick-up point (demonstration)",
+    "Request home collection (subject to availability)": "Home collection (subject to availability)",
+    "Nearest designated pick-up point": "Nearest designated pick-up point"
+  },
+  "book": {
+    "title": "Book your journey",
+    "description": "Create a demonstration booking request for MOBILUX CITY or MOBILUX NATURE.",
+    "eyebrow": "Your MOBILUX experience",
+    "heading": "Plan your journey",
+    "intro": "Fill in the form to create a demonstration booking request.",
+    "package": "Package",
+    "name": "Full name",
+    "email": "Email",
+    "email_placeholder": "name@example.com",
+    "date": "Departure date",
+    "passengers": "Passengers",
+    "address": "Pick-up address",
+    "address_placeholder": "City, address or preferred meeting point",
+    "preference": "Pick-up preference",
+    "location_note": "In this prototype, please enter a location manually. We do not collect your device location or check real pick-up availability.",
+    "extras": "Additional experiences",
+    "notes": "Special requests",
+    "notes_placeholder": "Dietary needs, celebrations or anything else we should know",
+    "optional": "optional",
+    "submit": "Confirm booking request",
+    "payment_note": "No payment is taken. This form creates a fictional record for presentation purposes only.",
+    "error_required": "Please enter your name, email and pick-up address.",
+    "error_email": "Please enter a valid email address."
+  },
+  "validation": {
+    "required": "Please fill in this field.",
+    "email": "Please enter a valid email address, for example name@example.com."
+  },
+  "confirmation": {
+    "title": "Request received",
+    "eyebrow": "Demonstration request created",
+    "heading": "Your journey starts here",
+    "intro": "Thank you, {name}. Your sample booking request has been saved.",
+    "keep_reference": "Keep your reference. You will need it, together with your email, to find this booking in My Journey.",
+    "note": "This is not a real reservation. No vehicle, seat, service or payment has been confirmed.",
+    "cta": "View My Journey"
+  },
+  "receipt": {
+    "reference": "Reference",
+    "package": "Package",
+    "departure": "Departure",
+    "passengers": "Passengers",
+    "pickup": "Pick-up",
+    "services": "Additional services",
+    "status": "Status",
+    "to_be_agreed": "To be agreed",
+    "none": "None selected",
+    "status_received": "Demonstration request received",
+    "demo": "Demonstration booking"
+  },
+  "journey": {
+    "title": "My Journey",
+    "description": "Find your MOBILUX demonstration booking using its reference and email address.",
+    "eyebrow": "Your personal space",
+    "heading": "My Journey",
+    "intro": "Find your demonstration booking using its reference and email address.",
+    "reference": "Booking reference",
+    "email": "Email used for the booking",
+    "submit": "Find my journey",
+    "not_found": "No demonstration booking found. Please check the reference and email."
+  },
+  "error": {
+    "title": "Page not found",
+    "heading": "This page does not exist",
+    "text": "The link may be wrong, or the page may have moved.",
+    "cta": "Back to the home page"
+  },
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
+}

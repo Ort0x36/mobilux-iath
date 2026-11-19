@@ -1,3 +1,32 @@
-{% extends "base.html" %}{% block title %}My Journey{% endblock %}
-{% block content %}<section class="subhero"><span class="eyebrow">YOUR PERSONAL SPACE</span><h1>My Journey.</h1><p>Retrieve your demonstration booking with its reference and email address.</p></section><section class="section form-section"><form method="post"><label>BOOKING REFERENCE</label><input name="reference" required placeholder="MLX-..."><label>EMAIL USED IN BOOKING</label><input name="email" type="email" required placeholder="name@example.com"><button class="button" type="submit">FIND MY JOURNEY</button></form>
-{% if booking %}<div class="receipt"><span class="eyebrow">MY JOURNEY · DEMO</span><h2 class="serif">{{ booking['package'] }}</h2><p><b>Reference:</b> {{ booking['reference'] }}</p><p><b>Departure:</b> {{ booking['departure_date'] or 'To be agreed' }}</p><p><b>Passengers:</b> {{ booking['passengers'] }}</p><p><b>Pick-up:</b> {{ booking['pickup_address'] }}</p><p><b>Services:</b> {{ booking['services'] or 'None selected' }}</p><p><b>Status:</b> Demonstration request received</p></div>{% endif %}</section>{% endblock %}
+{% extends "base.html" %}
+{% from "_macros.html" import subhero, receipt with context %}
+{% block title %}{{ t('journey.title') }} | MOBILUX{% endblock %}
+{% block description %}{{ t('journey.description') }}{% endblock %}
+{% block content %}
+{{ subhero(t('journey.eyebrow'), t('journey.heading'), t('journey.intro')) }}
+
+<section class="section form-section">
+  <form class="panel" method="post" data-reveal
+        data-msg-required="{{ t('validation.required') }}" data-msg-email="{{ t('validation.email') }}">
+    <div class="field">
+      <label for="reference">{{ t('journey.reference') }}</label>
+      <input id="reference" name="reference" required autocomplete="off" spellcheck="false" placeholder="MLX-" value="{{ form.get('reference', '') }}">
+    </div>
+    <div class="field">
+      <label for="email">{{ t('journey.email') }}</label>
+      <input id="email" name="email" type="email" required autocomplete="email" placeholder="{{ t('book.email_placeholder') }}" value="{{ form.get('email', '') }}">
+    </div>
+    <div class="form-submit">
+      <button class="button" type="submit">{{ t('journey.submit') }}</button>
+    </div>
+  </form>
+
+  {% if booking %}
+  <div class="panel receipt" data-reveal="scale">
+    <p class="eyebrow">{{ t('receipt.demo') }}</p>
+    <h2>{{ booking['package'] }}</h2>
+    {{ receipt(booking) }}
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

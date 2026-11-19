@@ -1,3 +1,36 @@
-{% extends "base.html" %}{% block title %}{{ package.name }}{% endblock %}
-{% block content %}<section class="subhero"><span class="eyebrow">DISCOVER THE ROUTE</span><h1>{{ package.name }}</h1><p>{{ package.description }}</p></section>
-<section class="section"><span class="eyebrow">THE ITINERARY</span><h2>One journey. Many stories.</h2><div class="timeline">{% for stop in package.route %}<div class="timeline-item"><span>{{ "%02d"|format(loop.index) }}</span><div><h3>{{ stop }}</h3><p>Discover local culture, gastronomy and memorable experiences in this destination.</p></div></div>{% endfor %}</div><p class="note">Illustrative itinerary for academic presentation. Travel times, operating stops and activity availability are subject to planning.</p><a class="button" href="{{ url_for('book', package=code) }}">BOOK THIS PACKAGE</a></section>{% endblock %}
+{% extends "base.html" %}
+{% from "_macros.html" import subhero with context %}
+{% block title %}{{ t('package.title', name=package.name) }} | MOBILUX{% endblock %}
+{% block description %}{{ t('package.%s.description' % code) }}{% endblock %}
+{% block og_image %}{{ package.image }}{% endblock %}
+{% block content %}
+{{ subhero(t('package.%s.theme' % code), package.name, t('package.%s.description' % code), package.image) }}
+
+<section class="section itinerary" aria-labelledby="itinerary-title">
+  <div class="section-head" data-stagger>
+    <p class="eyebrow" data-reveal>{{ t('package.itinerary_eyebrow') }}</p>
+    <h2 id="itinerary-title" data-reveal>{{ t('package.itinerary_title') }}</h2>
+    <p class="intro" data-reveal>{{ t('package.itinerary_intro') }}</p>
+  </div>
+
+  <ol class="timeline" data-stagger>
+    {% for stop in package.route %}
+    <li class="timeline-item" data-reveal>
+      <span class="timeline-num" aria-hidden="true">{{ "%02d"|format(loop.index) }}</span>
+      <div>
+        <p class="timeline-label">{{ t('package.departure') if loop.first else (t('package.return') if loop.last else t('package.stop')) }}</p>
+        <h3>{{ t('place.' ~ stop) }}</h3>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+
+  <div class="itinerary-footer" data-reveal>
+    <p class="note">{{ t('package.note') }}</p>
+    <div class="actions">
+      <a class="button" href="{{ url_for('book', package=code) }}">{{ t('package.book') }}</a>
+      <a class="text-link" href="{{ url_for('home') }}#packages">{{ t('package.all') }}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

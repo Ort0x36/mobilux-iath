@@ -1,0 +1,25 @@
+{% macro receipt(booking) %}
+<dl class="receipt-list">
+  <div><dt>{{ t('receipt.reference') }}</dt><dd class="reference">{{ booking['reference'] }}</dd></div>
+  <div><dt>{{ t('receipt.package') }}</dt><dd>{{ booking['package'] }}</dd></div>
+  <div><dt>{{ t('receipt.departure') }}</dt><dd>{{ format_date(booking['departure_date']) if booking['departure_date'] else t('receipt.to_be_agreed') }}</dd></div>
+  <div><dt>{{ t('receipt.passengers') }}</dt><dd>{{ booking['passengers'] }}</dd></div>
+  <div><dt>{{ t('receipt.pickup') }}</dt><dd>{{ booking['pickup_address'] }}</dd></div>
+  <div><dt>{{ t('receipt.services') }}</dt><dd>
+    {%- if booking['services'] -%}
+      {% for service in booking['services'].split(', ') %}{{ service_label(service) }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+    {%- else -%}{{ t('receipt.none') }}{%- endif -%}
+  </dd></div>
+  <div><dt>{{ t('receipt.status') }}</dt><dd><span class="status">{{ t('receipt.status_received') }}</span></dd></div>
+</dl>
+{% endmacro %}
+
+{% macro subhero(eyebrow, heading, intro, image=None) %}
+<section class="subhero{% if image %} has-image{% endif %}"{% if image %} style="--subhero-image: url('{{ image }}')"{% endif %}>
+  <div class="subhero-inner">
+    <p class="eyebrow load-in" style="--d:0">{{ eyebrow }}</p>
+    <h1 class="load-in" style="--d:1">{{ heading }}</h1>
+    {% if intro %}<p class="subhero-text load-in" style="--d:2">{{ intro }}</p>{% endif %}
+  </div>
+</section>
+{% endmacro %}

@@ -1,2 +1,23 @@
-{% extends "base.html" %}{% block title %}Request received{% endblock %}
-{% block content %}<section class="section confirmation center"><span class="success">✓</span><span class="eyebrow">DEMONSTRATION REQUEST CREATED</span><h1 class="serif">Your journey starts here.</h1><p class="intro">Thank you, {{ booking['customer_name'] }}. Your sample booking request has been saved.</p><div class="receipt"><p><b>Reference:</b> {{ booking['reference'] }}</p><p><b>Package:</b> {{ booking['package'] }}</p><p><b>Departure:</b> {{ booking['departure_date'] or 'To be agreed' }}</p><p><b>Passengers:</b> {{ booking['passengers'] }}</p><p><b>Pick-up:</b> {{ booking['pickup_address'] }}</p><p><b>Additional services:</b> {{ booking['services'] or 'None selected' }}</p><p><b>Status:</b> Demonstration request received</p></div><p class="note">This is not a real reservation. No vehicle, seat, service or payment has been confirmed.</p><a class="button" href="{{ url_for('my_journey') }}">VIEW MY JOURNEY</a></section>{% endblock %}
+{% extends "base.html" %}
+{% from "_macros.html" import receipt with context %}
+{% block title %}{{ t('confirmation.title') }} | MOBILUX{% endblock %}
+{% block content %}
+<section class="section confirmation center">
+  <div class="success-icon" data-reveal="scale" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+  </div>
+  <div data-stagger>
+    <p class="eyebrow" data-reveal>{{ t('confirmation.eyebrow') }}</p>
+    <h1 data-reveal>{{ t('confirmation.heading') }}</h1>
+    <p class="intro" data-reveal>{{ t('confirmation.intro', name=booking['customer_name']) }}</p>
+  </div>
+  <div class="panel receipt" data-reveal>
+    {{ receipt(booking) }}
+  </div>
+  <div class="confirmation-notes" data-reveal>
+    <p class="note">{{ t('confirmation.keep_reference') }}</p>
+    <p class="note">{{ t('confirmation.note') }}</p>
+    <a class="button" href="{{ url_for('my_journey') }}">{{ t('confirmation.cta') }}</a>
+  </div>
+</section>
+{% endblock %}
